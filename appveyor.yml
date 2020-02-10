@@ -3,9 +3,9 @@ build: false
 environment:
     PYTHON_HOME: "C:\\Python37"
 
-    CONAN_USERNAME: "qtproject"
+    CONAN_USERNAME: "_"
     CONAN_LOGIN_USERNAME: "annulen"
-    CONAN_CHANNEL: "stable"
+    CONAN_CHANNEL: "_"
     CONAN_UPLOAD: "https://api.bintray.com/conan/qtproject/conan"
     CONAN_REMOTES: "https://api.bintray.com/conan/qtproject/conan"
     CONAN_OPTIONS: "*:shared=True,brotli:shared=True"
