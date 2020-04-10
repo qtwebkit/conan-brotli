@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     items = []
     for item in builder.items:
-        if item.options["brotli:shared"] == True:
+        if item.options["brotli:shared"] == False:
             items.append(item)
     builder.items = items
 
